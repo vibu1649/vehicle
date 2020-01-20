@@ -1,0 +1,92 @@
+/***************************************************************
+ * Top-level style sheet.  Make general CSS changes here and
+ * use the browser/platform-specific CCS files for specific
+ * changes.
+ *
+ * Note: Do NOT specify fonts in points/pixel sizes.  Use
+ *       percentages only as this will ensure the browser gets
+ *       the option of using user-specified font sizes.  This
+ *       is important for those who have better or worse vision
+ *       than yourself.
+ **************************************************************/
+
+h1 { font-weight:bold; color: brown; font-size:8px; text-align:center;}
+.Table_Header
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #A5CFFF
+; padding-top: 2px; padding-bottom: 2px; padding-left: 2px
+}
+.Body_Bgcolor
+{
+    BACKGROUND-COLOR: #ffffff
+}
+.Fld_Vl
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #000000;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #f2f9fc;
+    padding-left: 5px
+; padding-top: 2px; padding-right: 2px; padding-left: 5px
+}
+.Fld_Lb
+{
+     FONT-WEIGHT: bold;
+    FONT-SIZE: 9pt;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #dceeff
+; padding-top: 2px; padding-right: 2px; padding-left: 5px
+}
+.HEADER_LB
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 24pt;
+    COLOR: #000000;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #f2f9fc;
+    padding-left: 5px
+; padding-top: 2px; padding-right: 2px; padding-left: 5px
+}
+.Fld_CL
+{
+     FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    COLOR: #000000;
+    FONT-FAMILY: Arial;
+   padding-left: 5px
+; padding-top: 2px; padding-right: 2px; padding-left: 5px
+}
+.ERROR_VL
+{
+     FONT-WEIGHT: bold;
+     FONT-STYLE: italic;
+    FONT-SIZE: 8pt;
+    COLOR: #9B0D10;
+    FONT-FAMILY: Arial;
+   padding-left: 5px
+; padding-top: 2px; padding-right: 2px; padding-left: 5px
+}
+.ERROR_FLD
+{
+     FONT-WEIGHT: bold;
+     FONT-STYLE: italic;
+    FONT-SIZE: 12pt;
+    COLOR: #9B0D10;
+    FONT-FAMILY: Arial;
+   padding-left: 5px
+; padding-top: 2px; padding-right: 2px; padding-left: 5px
+}
+.Cursor_Hand
+{
+    CURSOR: hand
+}
+HR
+{
+    COLOR: #0b84d4
+}
